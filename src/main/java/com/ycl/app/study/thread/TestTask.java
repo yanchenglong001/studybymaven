@@ -5,6 +5,11 @@ import java.util.Map;
 import java.util.concurrent.Callable;
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * 学习线程
+ * @author Administrator
+ *
+ */
 public class TestTask implements Callable<String> {
 
     private Map<String, Object> datas = new HashMap<String, Object>();
