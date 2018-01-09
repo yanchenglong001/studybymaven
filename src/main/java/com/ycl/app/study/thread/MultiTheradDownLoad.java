@@ -23,7 +23,7 @@ import java.util.concurrent.Executors;
 public class MultiTheradDownLoad {
     // 文件路径
     private String filepath = null;
-
+    // 文件名称
     private String filename = null;
 
     public String getFilename() {
