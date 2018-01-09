@@ -1,0 +1,8 @@
+RandomAccessFile
+http://blog.csdn.net/akon_vm/article/details/7429245
+CountDownLatch用法、CyclicBarrier用法、Semaphore用法
+http://www.importnew.com/21889.html
+Java实现的断点续传功能
+https://www.cnblogs.com/xzmblog/p/4364832.html?utm_source=tuicool&utm_medium=referral
+http://www.iteye.com/topic/427397
+
