@@ -87,7 +87,8 @@ public class MultiTheradDownLoad {
             httpcon = (HttpURLConnection) url.openConnection();
 
             setHeader(httpcon);
-            fileLength = httpcon.getContentLengthLong();//获取请求资源的总长度。
+            //            .getContentLengthLong()
+            fileLength = httpcon.getContentLength();//获取请求资源的总长度。
 
             file = new File(filename);
             tmpfile = new File(tmpfilename);
