@@ -21,7 +21,7 @@ import java.util.concurrent.Executors;
  * 每个线程支负责某一小段的数据下载；再通过RandomAccessFile完成数据的整合。
  */
 public class MultiTheradDownLoad {
-
+    // 文件路径
     private String filepath = null;
 
     private String filename = null;
